@@ -16,7 +16,3 @@ df = ob_cs.clean_glassdoor_jobs()
 
 df.to_csv('../resources/glassdoor_jobs_cleaned.csv', index=False)
 
-df_validation = pd.read_csv('../resources/glassdoor_jobs_cleaned.csv')
-
-print(df_validation.head())
-
